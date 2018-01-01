@@ -1,0 +1,76 @@
+body {
+  background: black;
+  color:silver;
+}
+
+.painting_wrapper {
+  margin: 2% 0;
+  background: #fff;
+  padding:2vw;
+  max-width: 700px;
+  display:flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  box-shadow: black 1vw 3vh 20px;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+
+.button {
+  cursor: pointer;
+  width: 10vw;
+  padding: 2% 0;
+  background: lightblue;
+  box-shadow:grey .5vw 1.2vh 10px;
+}
+
+.inactive {
+  margin-left: -100vw;
+  opacity: 0;
+}
+
+.painting_img {
+  background:#fff;
+  padding: 0 2% 0 0;
+  width: 400px;
+  height: 203px;
+}
+
+.painting_title {
+  font-size: 2em;
+  font-weight: 900;
+  padding-bottom:2%;
+  text-decoration: underline; 
+}
+
+.painting_desc {
+  text-align: justify;
+}
+
+.painting2_wrapper {
+  max-width: 650px;
+  background: white;
+  border-radius: 2%;
+  padding-bottom: 5%;
+}
+
+.painting2_content {
+  border-top: #1289ca 25px solid;
+  margin-top:-1%;
+}
+
+.painting2_title {
+  background: #1289ca;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: -6%;
+  padding: 4% 0 2% 0;
+  font-size: 1.5em;
+  font-family: courier;
+  color:#fafafa;
+  font-weight: 900;
+  border: 5px #1289ca solid;
+  border-radius: 50%
+}
+
