@@ -1,3 +1,4 @@
+<style ="text/css">
 body {
   background: black;
   color:silver;
@@ -73,3 +74,4 @@ body {
   border: 5px #1289ca solid;
   border-radius: 50%
 }
+</style>
